@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Shadows+Into+Light|Libre+Baskerville|Lobster|Josefin+Slab|Gloria+Hallelujah|EB+Garamond|Open+Sans&subset=latin,latin-ext);
+.nascosto, 
+.reset-settings,
+.hidden-wrap{
+    display:none !important;
+}
+#option-tree-settings-api li[role="tab"]{
+    font-family: "Times new roman", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    width: 147px;
+}
+.description{
+    font-family: "Lucida Grande", sans-serif, "Lucida Sans Unicode", Tahoma;
+    font-size: 14px;
+} {
+    display: none;
+}

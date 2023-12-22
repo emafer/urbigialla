@@ -1,0 +1,54 @@
+#leftsidebar,
+#rightsidebar,
+#centrecontent{
+    position: relative;
+    display:inline-block;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+#leftsidebar {
+    max-width: 200px;
+    min-width: 122px;
+}
+
+#centrecontent {
+    padding: 0 5px 5px 10px;
+    width: 56%;
+}
+
+#rightsidebar {
+    min-height: 120px;
+    max-width: 200px;
+    min-width: 122px;
+    width: 20%;
+}
+
+
+#home-left{
+    position: relative;
+    display:inline-block;
+    width: 48%;
+    top: 0;
+    left: 0;
+}
+
+
+#home-right {
+    width: 47%;
+    position: absolute;
+    display:inline-block;
+    font-size: 0.9em;
+    border-left: 1px solid #222;
+    padding-left: 15px;
+    top: 0;
+}
+.widget_atwidget .row .list{
+    display: block;
+}
+.row .list{
+    display: block;
+}
+

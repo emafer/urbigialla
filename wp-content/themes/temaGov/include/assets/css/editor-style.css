@@ -1,0 +1,13 @@
+/* Typography */
+body#tinymce {
+	min-height: 302px;
+	background-color: #ffffff;
+	font-size: 18px;
+}
+
+table.aligncenter{
+	display: table;
+}
+.block-editor-block-list__block.wp-block.is-selected {
+	min-height: 300px;
+}

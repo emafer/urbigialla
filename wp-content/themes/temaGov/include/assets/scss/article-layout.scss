@@ -1,0 +1,129 @@
+.layout-articolo2 .post_evidence_img,
+.layout-articolo4 .post_evidence_img,
+.layout-articolo98 .post_evidence_img {
+  padding-top: $altezzaImmagineEvidenzaArticolo;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layout-articolo2 .dataArticolo {
+  font-size: 0.7em;
+  text-align: center;
+  display: block;
+}
+
+.layout-articolo3 .dataArticolo {
+  font-size: 0.7em;
+  text-align: center;
+  display: block;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+
+.layout-articolo3 .titolo {
+  display: block;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+
+.postTitle {
+  text-decoration: none;
+}
+
+.layout-articolo4 .post_preview_inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.titoloGhost{
+  display: none;
+  background: $primary;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-height: max-content;
+  padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: $opposite;
+}
+
+.titoloGhost .header-titolo-articolo {
+  font-size: 1em;
+}
+.titoloGhost header {
+	vertical-align: middle !important;
+    display: table-cell;
+	}
+
+.titoloGhost .dataArticolo {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.layout-articolo4 .titolo a,
+.layout-articolo4 .titolo a:hover,
+.layout-articolo4 .titolo a:visited,
+.layout-articolo4 .titolo a:focus
+{
+  color: $opposite;
+}
+
+.layout-articolo4:hover .titoloGhost {
+  display: table;
+}
+.post_preview.layout-articolo99 {
+  margin-bottom: 0;
+}
+
+.layout-articolo99 .header-titolo-articolo{
+  font-size: 1.17em;
+}
+.newPost .post_preview_inner {
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: top;
+  background-image: url('../../themes/temaGov/include/assets/images/new.png');
+}
+
+/** asasf $pathImg */
+.container-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.container-video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.layout-articolo2 .layout-articolo-inner,
+.layout-articolo2 .layout-articolo-inner .post_preview_inner,
+.layout-articolo3 .layout-articolo-inner,
+.layout-articolo3 .layout-articolo-inner .post_preview_inner
+{
+    height: 100%;
+}
+
+.readAllContainer {
+    position: absolute;
+    bottom: 5px;
+}
+.layout-articolo3 .layout-articolo-inner .post_preview_inner,
+.layout-articolo2 .layout-articolo-inner .post_preview_inner,
+.layout-articolo98 .layout-articolo-inner .post_preview_inner
+{
+    padding-bottom: 3.5em;
+}
+
+.layout-articolo4 .titoloGhost header {
+    text-align: center;
+    font-size: 2em;
+	width: 100%
+	}

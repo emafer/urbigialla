@@ -1,0 +1,64 @@
+/*
+Theme Name: Urbigialla
+Author: Emanuele Ferrarini
+Description: tema per il progetto Urbigialla
+Version: 1.1
+*/
+.searchDiv {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.searchDiv input {
+    border: 3px solid #fcca4f;
+    border-right: 0;
+}
+.searchDiv .input-group-text {
+    background-color: #fff;
+    border: 3px solid #fcca4f;
+    border-left: 0;
+}
+.btn-search-att {
+    color: #fcca4f;
+}
+.card-title.card-title_att {
+    text-align: center;
+}
+.card-title_background {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+.card-title_title {
+    position: absolute;
+    z-index: 99;
+    height: 40px;
+    padding-top: 5px;
+    color: #fcca4f;
+    width: 100%;
+}
+.show-categoria_att {
+    margin-bottom: 30px;
+}
+
+.textright {
+    text-align: right;
+}
+
+nav.navbar {
+    background-color: #fcca4f;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#menu-superiore {
+
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-overlay {
+    padding: 0;
+}

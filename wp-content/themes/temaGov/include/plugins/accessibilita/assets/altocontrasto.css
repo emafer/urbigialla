@@ -1,0 +1,60 @@
+p, div, body, h1, h2, h3, h4, ul, li,table, td, th,
+.su-table .su-even td,
+.su-table td{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    font-family: Arial;
+}
+
+a, a:active, a:focus, a:visited{
+    color: #ffff00 !important;
+}
+
+.bread-crumb-item.active{
+    color: #ffffff;
+}
+
+#leftsidebar h2,
+#rightsidebar h2,
+#testatasidebar h2,
+h2.widgettitle{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#topbar,
+#topbar ul,
+#topbar ul li,
+#footbar,
+#footbar ul,
+#footbar ul li,
+#topnavmenu ul.sito,
+#topbar ul li,
+#topnavmenu ul.sito li,
+#rightsidebar h2 a
+{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+#topnavmenu ul.sito li a,
+#topnavmenu ul.sito li a:active,
+#topnavmenu ul.sito li.current_page_item a,
+#topbar li a,
+    #footbar ul li a,
+#topbar a:link, #topbar a:visited,  #topbar a:active{
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+#footbar{
+    background: #ffffff;
+    background-image: none;
+}
+
+a:hover,
+#topbar ul li.current_page_item a:hover,
+#topbar a:hover{
+    color: #ff0000 !important;
+    background-color: #ffffff !important;
+}

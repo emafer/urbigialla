@@ -1,0 +1,196 @@
+#leftsidebar {
+  background-color: $coloreFondoLeftBar;
+  z-index: 9;
+}
+
+#leftsidebar h2 {
+  display: block;
+  text-decoration: none;
+  background-color: $coloreWidgetleftbar;
+  color: $coloreCarattereleftbar;
+  text-align: center;
+  padding: 10px 5px 10px 12px;
+  margin-bottom: 10px;
+
+  border: $spessoreBordoWidgetLeftbar solid $coloreBordoWidgetLeftbar;
+}
+
+#leftsidebar h2 a {
+
+  display: block;
+  text-decoration: none;
+  color: $coloreCarattereleftbar;
+  background: $coloreWidgetleftbar;
+}
+
+#leftsidebar h2 a:hover {
+
+  display: block;
+}
+
+#leftsidebar ul {
+  @extend .fontFamilyListe;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+}
+
+#leftsidebar ul li a {
+
+  text-decoration: none;
+}
+
+#leftsidebar ul li a:hover {
+
+  text-decoration: underline;
+}
+
+
+#leftsidebar ul li {
+  padding: 6px 10px 6px 10px;
+  margin: 10px 0
+}
+#leftsidebar ul ul li:last-of-type {
+  border-bottom: none;
+}
+
+#leftsidebar ul ul li a {
+
+  margin: 0 0 0 -10px;
+  padding: 0 10px;
+  voice-family: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+#leftsidebar ul ul ul {
+  margin: 0;
+}
+
+#leftsidebar ul ul ul li {
+
+  margin: 0 0 0 -10px;
+  padding: 0 0 0 15px;
+  border-bottom: none;
+  border-top: 1px solid #E8E8CE;
+}
+
+#leftsidebar ul ul ul li a {
+
+  margin: 0 0 0 -25px;
+  padding: 0em 10px 0em 25px;
+}
+
+#rightsidebar {
+  z-index: 9;
+  background-color: $coloreFondoRightBar;
+}
+
+#rightsidebar h2 {
+  display: block;
+  padding-top: 0.3em;
+  text-decoration: none;
+  color: $coloreCarattereRightbar;
+  border: $spessoreBordoWidgetRightbar solid $coloreBordoWidgetRightbar;
+  text-align: center;
+}
+
+
+#rightsidebar h2 a {
+  color: $coloreCarattereRightbar;
+  background: $coloreWidgetRightbar;
+  padding: 10px 5px 10px 12px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#rightsidebar h2.sez_utenti {
+
+  background-color: #fff;
+  color: #039;
+  margin-bottom: -1px;
+  padding-bottom: 4px;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+#rightsidebar ul {
+  @extend .fontFamilyListe;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+#rightsidebar li.widget {
+  margin-top: 10px;
+}
+
+#rightsidebar #wpmenudati ul {
+  background-color: transparent;
+  border: 0;
+}
+
+#rightsidebar ul li a {
+  margin-left: -20px;
+  padding-left: 20px;
+  display: block;
+  /*background: #fff;*/
+  text-decoration: none;
+}
+
+#rightsidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+#rightsidebar ul ul li:last-of-type {
+  border-bottom: none;
+}
+#rightsidebar ul li {
+  border-bottom: 1px dotted #aaa;
+}
+
+#rightsidebar ul ul li a {
+  margin: 0 0 0 -10px;
+  padding: 0 10px;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  text-decoration: none;
+}
+
+#rightsidebar ul ul ul {
+  margin: 0;
+  border: none;
+}
+
+#rightsidebar ul ul ul li {
+
+  margin: 0 0 0 -10px;
+  padding: 0 0 0 15px;
+  border-bottom: none;
+  border-top: 1px solid #E8E8CE;
+}
+
+#rightsidebar ul ul ul li a {
+
+  margin: 0 0 0 -25px;
+  padding: 0em 10px 0em 25px;
+}
+
+#rightsidebar li.current-cat a {
+
+  color: #000 !important;
+}
+
+#rightsidebar li.active a, #rightsidebar ul ul li.active a {
+
+  font-weight: bold;
+}
+
+.titoloBarra h3 {
+  color: $colorePrincipale;
+  border-bottom: 2px solid $colorePrincipale;
+}

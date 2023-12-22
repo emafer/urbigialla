@@ -1,0 +1,1 @@
+/home/emafer/sviluppo/urbigialla/wp-content/plugins/query-monitor/wp-content/db.php

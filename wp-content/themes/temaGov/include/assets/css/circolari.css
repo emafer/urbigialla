@@ -1,0 +1,42 @@
+.risultatiCircolari .circolare:nth-child(odd) {
+
+}
+.circolare.newPost .dati-circolare {
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: top;
+  background-image: url('/wp-content/themes/temaGov/include/assets/images/new.png');
+}
+.risultatiCircolari .circolare:nth-child(even) {
+  background-color: #dad4d429;
+}
+.circolare {
+
+}
+.data_circolare,
+.numero_circolare{
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+}
+.data_circolare_container,
+.numero_circolare_container {
+  margin: auto;
+}
+.titolo_circolare {
+
+}
+.tipologia_circolare {
+  font-size: 0.75em;
+  line-height: 1;
+  font-style: italic;
+}
+
+.destinatari_circolare {
+  font-size: 0.75em;
+  line-height: 1;
+  font-style: italic;
+}
+.circolare:hover {
+  background-color: #dad4d440;
+}

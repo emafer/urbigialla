@@ -1,0 +1,54 @@
+.card.container-fascia .card-header{
+  background-color: darken($primary, 15%);
+}
+
+.card.container-fascia .card-header .btn-link{
+  color: $opposite;
+}
+
+.container-fascia.pari .contenuto-fascia{
+  background-color: #efefef;
+}
+
+.container-fascia.dispari .contenuto-fascia{
+  background-color: #ffffff;
+}
+
+.post_preview_inner{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 6px 2px #22222291;
+}
+
+.post_preview {
+  margin-bottom: 15px;
+}
+
+.card-header button.btn.btn-link:after {
+  content: url(/wp-content/themes/temaGov/include/assets/images/icon-up-white.png);
+  padding: 5px;
+}
+.card-header button.btn.btn-link.collapsed:after {
+  padding: 5px;
+  content: url(/wp-content/themes/temaGov/include/assets/images/icon-down-white.png);
+}
+.reducememax .postTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 100%;
+}
+.reduceme .postTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 100%;
+}
+
+.titoloBarra {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "emafer/urbigialla",
+  "description": "Tema per il progetto Urbigialla",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "emafer",
+      "email": "emanuele.ferrarini@gmail.com"
+    }
+  ],
+  "require": {
+    "twbs/bootstrap": "^5.1",
+    "components/font-awesome": "^6.0",
+    "wp-bootstrap/wp-bootstrap-navwalker": "^4.3",
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

@@ -1,0 +1,496 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.menu-orizzontale-principale-container{
+  padding: 0 !important;
+}
+
+.menu-orizzontale-principale-nav{
+  background-color: transparent;
+  border: none;
+  margin-bottom: 5px;
+}
+html {
+  margin: 0 auto;
+  padding: 0;
+  background: @coloreDiPartenzaSfondo;
+  background-color: @coloreDiPartenzaSfondo;
+  background-image: -moz-linear-gradient(top, @coloreDiPartenzaSfondo, @coloreDiArrivoSfondo 65%);
+  background-image: -webkit-linear-gradient(top, @coloreDiPartenzaSfondo, @coloreDiArrivoSfondo 65%);
+  background-image: -ms-linear-gradient(top, @coloreDiPartenzaSfondo, @coloreDiArrivoSfondo 65%);
+  background-image: -o-linear-gradient(top, @coloreDiPartenzaSfondo, @coloreDiArrivoSfondo 65%);
+  background-image: linear-gradient(top, @coloreDiPartenzaSfondo, @coloreDiArrivoSfondo 65%);
+}
+
+body {
+  background-color: @coloreDiPartenzaSfondo;
+  //.fontFamilyTesto;
+  margin: 0;
+  padding: 0;
+}
+
+body.login{
+  background: #dddddd;
+}
+
+p{
+  .fontFamilyTesto;
+}
+
+
+.login input[type=text] {
+  font-size: 24px;
+  font-weight: normal;
+  width: 100%;
+  padding: 3px;
+  margin: 2px 6px 16px 0;
+}
+#wrapper {
+  background-color: @sfondoWrapper;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: @boxShadow;
+}
+.divisoreSezione{
+  border-bottom: 1px solid @colorePrincipale;
+}
+.bordedLeftColum{
+   border-left: 1px solid @colorePrincipale;
+ }
+
+#testataDatiIstituto {
+  text-align: center;
+  padding: 0 0 15px;
+  margin-bottom: 20px;
+}
+
+
+#testataDatiIstituto .printfriendly,
+#pieDiPaginaDatiIstituto .printfriendly {
+  display: none;
+}
+
+.article_preview {
+  padding-left: 30px;
+}
+
+.ngg-slideshow
+{
+    max-width: 100% !important;
+}
+//
+.ngg-slideshow img
+{
+   max-width:100% !important;
+   height: auto !important;
+}
+
+
+.dataArticolo {
+  .fontFamilyDate;
+}
+
+.widgettitle {
+  font-family: @fontTitoli, Verdana, Arial, sans-serif;
+  font-size: 90% !important;
+}
+.homeTitleCategorie {
+  .fontFamilyTitoli;
+}
+//
+.linkMadisoft {
+  .border-radius(5px);
+  padding:          1em;
+  line-height:      3.5em;
+  color: #fff !important;
+  background-color: @colorePrincipale;
+}
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+#contenuto,
+#intro
+{
+  background-color: @sfondoWrapper;
+}
+
+.postTitle,
+.widgettitle{
+  font-size: @fontTitoliDimensioni;
+  font-family: @fontTitoli;
+  font-weight: normal;
+}
+.widgettitle
+{
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  font-weight: bolder;
+}
+
+.title-divisor{
+  font-weight: normal;
+}
+
+.row#footer-widget{
+  background-color: #ffffff;
+}
+#contenuto
+{
+  padding-bottom: 10px;
+  //border-bottom: 8px solid gray;
+}
+
+footer{
+  padding-top: 10px;
+}
+.menu-orizzontale-principale-nav{
+  border: 0;
+}
+
+
+#testataDatiIstituto{
+  padding-top: 25px;
+}
+
+img.logo{
+  max-height:123px;
+}
+div.logo{
+  text-align: right;
+}
+
+#menu-orizzontale-principale-container .navbar-nav>li>.dropdown-menu {
+  background-color: @colorePrincipale;
+}
+#menu-orizzontale-principale-container .navbar-nav>li>ul>li>a{
+  color: #fff;
+}
+#menu-orizzontale-principale-container .navbar-nav>li>ul>li>a:hover{
+  color: @colorePrincipale;
+}
+.bordedLeftColumn{
+   border-left: 1px solid @colorePrincipale;
+ }
+
+.bordedRightColumn{
+   border-right: 1px solid @colorePrincipale;
+ }
+
+.title-divisor{
+  border-top: 3px solid @colorePrincipale;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.post_preview .title-divisor{
+  display:none;
+}
+
+div.post_preview_borded,
+.search_post{
+  border-bottom: 3px solid @colorePrincipale;
+}
+
+div.post_preview_borded {
+  margin-bottom: 25px;
+}
+
+div.post_preview:last-of-type,
+.search_post:last-of-type{
+  border-bottom: none;
+}
+
+.footer_interno .widgettitle{
+  text-align: center;
+}
+
+.footer_interno img{
+  max-width: 200px;
+  height: auto;
+}
+
+ul.sub-menu{
+  list-style:none;
+  margin: 0;
+}
+.no-padding{
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  color: @coloreLink;
+  text-decoration: underline;
+}
+
+.subtitle{
+  font-weight: bold;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  .fontFamilyTesto;
+}
+
+h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 1em 0 0.5em;
+  font-size: 140%;
+}
+
+h2 {
+  font-size: 130%;
+  margin: 1em 0 0.5em;
+}
+
+h3 {
+  font-size: 120%;
+  margin: 1em 0 0.5em;
+}
+
+h4 {
+  font-size: 110%;
+  margin: 0.5em 0 0.3em;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+    #contenuto-centrale{
+    overflow-x: auto;
+  }
+}
+
+div.printfriendly{
+  z-index: 8 !important;
+}
+
+.layout-articolo1 .row.post_preview_borded{
+  padding-bottom: 5px;
+}
+
+.layout-articolo1 .postmeta{
+  font-style: italic;
+}
+
+.layout-articolo1 .header-titolo-articolo,
+.layout-articolo1 .postTitle{
+  margin: 0;
+  text-align: left;
+}
+
+.layout-articolo1 .postTitle a.postTitle{
+  padding: 0;
+}
+
+
+#barramenumobile
+{
+  position: fixed;
+  top: 10%;
+  right: 0;
+  z-index: 50;
+  padding: 15px;
+  background: @coloreFondoMenuPrincipale;
+}
+
+
+#barramenumobile #menu-orizzontale-principale-container a{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#barramenumobile #contenuto-principale{
+  padding-right: 25px;
+}
+#barramenumobile #menu-orizzontale-principale-container > ul > li.menu-item {
+  padding: 0;
+}
+#barramenumobile #menu-orizzontale-principale-container > ul{
+  border: none;
+}
+#barramenumobile #menu-orizzontale-principale-container{
+  background-color: @coloreFondoMenuPrincipale;
+  padding-left: 30px;
+}
+#barramenumobile #menu-orizzontale-principale-container > ul > li.menu-item:hover {
+  background-color: @coloreCarattereMenuPrincipale;
+}
+#barramenumobile #menu-orizzontale-principale-container > ul > li.menu-item:hover > a {
+  color: @coloreFondoMenuPrincipale;
+  background-color: @coloreCarattereMenuPrincipale;
+}
+
+#barramenumobile #menu-orizzontale-principale-container > ul > li.menu-item a {
+  color: @coloreCarattereMenuPrincipale;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.topnavmenu-container{
+  text-align: right;
+}
+#barramenumobile  #menu-menu-alto-sopra-intestazione{
+  min-height: 20px;
+  margin: 0;
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  font-size: @fontMenuPrincipaleDimensioni;
+  color: @coloreCarattereMenuPrincipale;
+  width: auto;
+  float: right;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: @coloreFondoMenuPrincipale;
+  -moz-border-radius: 0 0 20px 20px;
+  -webkit-border-radius: 0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+#header ul li a {
+  color: @coloreCarattereMenuPrincipale;
+}
+.navbar-nav > li > a {
+  padding-top : 5px;
+  padding-bottom: 5px;
+}
+
+.menu-footer-container{
+  text-align:center;
+  height: auto !important;
+  min-height: 21px;
+  padding: 0;
+  margin: 0 0 10px;
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: @coloreFondoMenuFooter;
+  background-color: @coloreFondoMenuFooter;
+  background-image: -moz-linear-gradient(right, #fff, @coloreFondoMenuFooter 30%);
+  background-image: -webkit-linear-gradient(right, #fff, @coloreFondoMenuFooter 30%);
+  background-image: -ms-linear-gradient(right, #fff, @coloreFondoMenuFooter 30%);
+  background-image: -o-linear-gradient(right, #fff, @coloreFondoMenuFooter 30%);
+  background-image: linear-gradient(right, #fff, @coloreFondoMenuFooter 30%);
+}
+.menu-footer-nav .navbar-nav > li > a{color:@coloreCarattereFooter;}
+
+#menu-menu-pie-di-pagina{
+  margin:auto;
+}
+
+#barramenumobile #menu-orizzontale-principale-container>ul>li.menu-item.active>a,
+#barramenumobile #menu-orizzontale-principale-container>ul>li.menu-item.open>a,
+#barramenumobile .active a
+{
+  padding: 15px 10px 4px 10px;
+  background-color: @coloreFondoMenuPrincipale;
+  color: @coloreCarattereMenuPrincipale;
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  font-size: @fontMenuPrincipaleDimensioni;
+  display: block;
+  border-radius: 0;
+}
+
+#barramenumobile #menu-orizzontale-principale-container>ul>li.menu-item:hover>a{
+  padding: 15px 10px 4px 10px;
+  background-color: @coloreFondoMenuPrincipale;
+  color: @coloreCarattereMenuPrincipale;
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  font-size: @fontMenuPrincipaleDimensioni;
+  display: block;
+  border-radius: 0;
+}
+#barramenumobile #menu-orizzontale-principale-container .navbar-nav>li>.dropdown-menu {
+   background-color: @coloreFondoMenuPrincipale;
+  color: @coloreCarattereMenuPrincipale;
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  font-size: @fontMenuPrincipaleDimensioni;
+ }
+
+#menu-orizzontale-principale-container>ul>li.menu-item a{
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  padding: 15px 10px 4px 10px;
+  color: @coloreFondoMenuPrincipale;
+  display: block;
+}
+#barramenumobile #menu-orizzontale-principale-container>ul>li.menu-item a {
+  font-family: @fontMenuPrincipale, Verdana, Arial, sans-serif;
+  padding: 15px 10px 4px 10px;
+  color: @fontMenuPrincipale;
+  display: block;
+}
+
+#barramenumobile button.navbar-toggle {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+#barramenumobile .navbar-collapse {
+  max-height:400px;
+  overflow-y:auto;
+}

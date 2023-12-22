@@ -1,0 +1,16 @@
+label.label_madisoft_form {
+	width:       150px;
+	display:     block;
+	float:       left;
+	font-weight: bold;
+}
+
+.scuola_form {
+	width: 400px;
+}
+
+#dati_scolastici,
+#dati_descrittivi,
+#dati_di_contatto {
+	margin-bottom: 20px;
+}

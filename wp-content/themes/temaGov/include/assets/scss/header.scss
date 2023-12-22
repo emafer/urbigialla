@@ -1,0 +1,25 @@
+#header {
+  padding: 5px;
+}
+#header-website {
+  background-color: $sfondoHeader;
+}
+#rapid-contact a,
+#rapid-contact div{
+  color: #ffffff;
+}
+
+#rapid-contact {
+  padding: 5px;
+  background-color: darken($primary, 25%);
+}
+#rapid-contact  .btn-secondary {
+  background-color:darken($primary, 25%);
+  border-color: darken($primary, 25%);
+}
+.logo_text,
+.logo_text h1,
+.logo_text h2,
+.logo_text a {
+  color:#fff !important;
+}

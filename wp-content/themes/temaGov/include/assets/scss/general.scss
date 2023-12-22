@@ -1,0 +1,386 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+html {
+  margin: 0 auto;
+  padding: 0;
+  background: #30373d;
+}
+
+body {
+  background-color: #30373d;
+  margin: 0;
+  padding: 0;
+}
+
+body.login{
+  background: #dddddd;
+}
+
+p{
+  @extend .fontFamilyTesto;
+}
+
+
+.login input[type=text] {
+  font-size: 24px;
+  font-weight: normal;
+  width: 100%;
+  padding: 3px;
+  margin: 2px 6px 16px 0;
+}
+#wrapper {
+  background-color: $sfondoWrapper;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: $boxShadow;
+}
+.divisoreSezione{
+  border-bottom: 1px solid $colorePrincipale;
+}
+.bordedLeftColum{
+  border-left: 1px solid $colorePrincipale;
+}
+
+#testataDatiIstituto .printfriendly,
+#pieDiPaginaDatiIstituto .printfriendly {
+  display: none;
+}
+
+.article_preview {
+  padding-left: 30px;
+}
+
+.ngg-slideshow
+{
+  max-width: 100% !important;
+}
+//
+.ngg-slideshow img
+{
+  max-width:100% !important;
+  height: auto !important;
+}
+
+
+.dataArticolo {
+  @extend .fontFamilyDate;
+}
+
+.widgettitle {
+  text-align: center;
+  background-color: $primary;
+  color: $opposite;
+  font-family: $fontTitoli, Verdana, Arial, sans-serif;
+  font-size: 90% !important;
+}
+#footer .widgettitle {
+  text-align: center;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: $fontTitoli, Verdana, Arial, sans-serif;
+  font-size: 90% !important;
+}
+.homeTitleCategorie {
+  @extend .fontFamilyTitoli;
+}
+//
+.linkMadisoft {
+  @include border-radius(5px);
+  padding:          1em;
+  line-height:      3.5em;
+  color: #fff !important;
+  background-color: $colorePrincipale;
+}
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+#contenuto,
+#intro
+{
+  background-color: $sfondoWrapper;
+}
+
+.postTitle,
+.widgettitle{
+  font-family: $fontTitoli;
+  font-weight: normal;
+}
+.widgettitle
+{
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  font-weight: bolder;
+}
+
+.title-divisor{
+  font-weight: normal;
+}
+#contenuto
+{
+  padding-bottom: 10px;
+  //border-bottom: 8px solid gray;
+}
+
+footer{
+  padding-top: 10px;
+}
+
+
+#testataDatiIstituto{
+  padding-top: 25px;
+}
+img.logo{
+  max-height:123px;
+}
+div.logo{
+  text-align: right;
+}
+
+.bordedLeftColumn{
+  border-left: 1px solid $colorePrincipale;
+}
+
+.bordedRightColumn{
+  border-right: 1px solid $colorePrincipale;
+}
+
+.title-divisor{
+  border-top: 3px solid $colorePrincipale;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.post_preview .title-divisor{
+  display:none;
+}
+
+div.post_preview_borded,
+.search_post{
+  border-bottom: 3px solid $colorePrincipale;
+}
+
+div.post_preview_borded {
+  margin-bottom: 25px;
+}
+
+div.post_preview:last-of-type,
+.search_post:last-of-type{
+  border-bottom: none;
+}
+
+.footer_interno .widgettitle{
+  text-align: center;
+}
+
+.footer_interno img{
+  max-width: 200px;
+  height: auto;
+}
+
+ul.sub-menu{
+  list-style:none;
+  margin: 0;
+}
+.no-padding{
+  padding: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  color: $coloreLink;
+  text-decoration: underline;
+}
+
+.subtitle{
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+  #contenuto-centrale{
+    overflow-x: auto;
+  }
+}
+
+div.printfriendly{
+  z-index: 8 !important;
+}
+
+.layout-articolo1 .row.post_preview_borded{
+  padding-bottom: 5px;
+}
+
+.layout-articolo1 .postmeta{
+  font-style: italic;
+}
+
+.layout-articolo1 .header-titolo-articolo,
+.layout-articolo1 .postTitle{
+  margin: 0;
+  text-align: left;
+}
+
+.layout-articolo1 .postTitle a.postTitle{
+  padding: 0;
+}
+
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.topnavmenu-container{
+  text-align: right;
+}
+#header ul li a {
+  color: $coloreCarattereMenuPrincipale;
+}
+.navbar-nav > li > a {
+  padding-top : 5px;
+  padding-bottom: 5px;
+}
+
+.menu-footer-container{
+  text-align:right;
+}
+.menu-footer-nav .navbar-nav > li > a{
+  color:$coloreCarattereFooter;
+}
+
+#menu-menu-pie-di-pagina{
+  margin:auto;
+}
+
+#searchsubmit2 {
+  padding: 5px;
+}
+
+.contenuto-principale {
+  box-shadow: 4px 6px 6px 2px rgba(34, 34, 34, 0.569);
+  padding: 10px 10px 20px;
+
+}
+
+.homepage .contenuto-principale {
+  box-shadow: none;
+  padding: 0;
+
+}
+
+.widget {
+  box-shadow: 4px 6px 6px 2px rgba(34, 34, 34, 0.569);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+table {
+  @extend .table;
+}
+
+#wp-calendar td {
+  padding: 0;
+}
+
+.riassunto{
+  font-style: italic;
+}
+
+.widecolumn {
+  background-color: #ffffff;
+}
+
+.wp-activate-container{
+  @extend .container;
+  padding-bottom: 15px;
+}
+
+.wp-activate-container .submit {
+  @extend .btn-info;
+  @extend  .btn;
+}
+
+//calendar
+#wp-calendar,
+.em-calendar,
+.eventless {
+  color: #ffffff;
+}
+
+.nobordi .post_preview_inner,
+.nobordi .widget {
+  box-shadow: none;
+}
+
+.container-fluid.menu {padding: 0;}
+.container-fascia.pari .contenuto-fascia {
+  background-color: #ffffff !important;
+}
+.card {
+  border: none !important;;
+}

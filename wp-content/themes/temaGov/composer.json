@@ -1,0 +1,22 @@
+{
+  "name": "madisoft/temaGov",
+  "description": "tema gov per i siti scolastici",
+  "minimum-stability": "beta",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "emanueleF",
+      "email": "info@madisoft.it"
+    }
+  ],
+  "require": {
+    "twbs/bootstrap": "v4.3.1",
+    "scssphp/scssphp": "1.0.0",
+    "wp-bootstrap/wp-bootstrap-navwalker": "*",
+    "ext-curl": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "leafo/scssphp": "dev-master"
+  }
+}

@@ -1,0 +1,41 @@
+#footer {
+  padding-top: 15px;
+  background-color: #30373d;
+  color: #ffffff;
+}
+
+#footer a,
+#footer a:visited,
+#footer a:hover
+{
+  color: #65dde0;
+}
+
+#footer .social_footer_text {
+  margin-top: 10px;
+  color: #ffffff;
+  float: left;
+}
+
+#footer .social_footer_icon {
+  float: left;
+  padding: 5px;
+}
+
+#footer .social_footer_icon img {
+  width: 30px;
+}
+
+#credits {
+  margin-bottom: 15px;
+}
+
+#footer-widget ul {
+  list-style: none;
+}
+
+@media (max-width: 575.98px) {
+.gototop {
+font-size: 1.5em !important;
+}
+}

@@ -1,0 +1,109 @@
+#topbar {
+  height: auto !important;
+  min-height: 45px;
+  width: 100%;
+  padding: 0;
+  color: @coloreCarattereMenuPrincipale;
+  background-color: @coloreFondoMenuPrincipale;
+}
+
+#topbar ul {
+  text-align: left;
+  .fontFamilyMenuPrincipale;
+  line-height: 1.5em;
+  padding: 10px 0 5px;
+  display: table;
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#topbar li a {
+  padding: 3px 10px 3px 10px;
+  float: left;
+  border-right: 1px solid;
+  border-right-color: @coloreCarattereMenuPrincipale;
+}
+
+#topbar ul li {
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+#topbar ul li a {
+  text-decoration: none;
+  color: @coloreCarattereMenuPrincipale;
+}
+
+#topbar ul li.current_page_item a,
+#topbar ul li a:hover {
+  text-decoration: underline
+}
+
+#topbar ul li.current_page_item a:hover {
+  text-decoration: none !important;
+  color: @coloreCarattereMenuPrincipale;
+}
+
+#topbar ul li ul {
+  display: none;
+}
+
+#topbar ul li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 13;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+#topbar ul li:hover ul li ul li{
+  margin-top: -10px;
+}
+#topbar ul li:hover ul li {
+  float: none;
+  position: relative;
+  display: block;
+}
+
+#topbar ul li:hover ul li ul {
+  display: none;
+}
+
+#topbar ul li:hover ul li a {
+  float: none;
+  display: block;
+  border: none !important;
+  background: @coloreFondoMenuPrincipale;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.1em;
+  color: @coloreCarattereMenuPrincipale !important;
+}
+
+#topbar ul li:hover ul li a:hover {
+  background: lighten(@coloreFondoMenuPrincipale, 15%);
+}
+
+#topbar ul li:hover ul li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 13;
+  left: 100%;
+  top: -20px;
+
+}
+
+#topbar a:link,
+#topbar a:visited,
+#topbar a:hover,
+#topbar a:active {
+  color: @coloreCarattereMenuPrincipale;
+}
+
+#topbar.fixed_top {
+	position: fixed;
+	left:     0;
+	z-index:  10;
+}

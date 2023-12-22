@@ -1,0 +1,45 @@
+#barraAccessibilita{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 15;
+}
+.hidden-btn {
+    display: none;
+}
+
+#barraAccessibilita a{
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #000000 !important;
+}
+
+.fontsize1{
+    font-size:12px !important;
+}
+.fontsize2{
+    font-size:24px !important;
+}
+
+#menuaccesskey{
+    background-color: #ffffff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+ul.listaAccessKey {
+    list-style: none;
+}
+
+.listaAccessKey span{
+    width: 30px;
+}
+
+body.grayScale * {
+    filter:grayscale(100%);
+    -webkit-filter:grayscale(100%);
+
+    -moz-filter:grayscale(100%);
+
+}

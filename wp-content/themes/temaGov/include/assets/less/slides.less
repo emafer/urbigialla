@@ -1,0 +1,33 @@
+.flexslider {
+  background-color: @sfondoWrapper;
+  position: relative;
+}
+
+.flexslider .flex-direction-nav li {
+  line-height: 40px;
+}
+
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+	z-index: 8;
+}
+
+.flex-control-paging li a.flex-active {
+  background: @coloreFondoMenuPrincipale;
+}
+
+.flex-control-paging li a {
+  background: lighten(@coloreFondoMenuPrincipale, 15%);
+}
+
+.flex-control-paging li a:hover {
+  background: darken(@coloreFondoMenuPrincipale, 15%);
+}
+
+.flexslider img.img_slide {
+	width:     100%;
+	max-width: 100%;
+}

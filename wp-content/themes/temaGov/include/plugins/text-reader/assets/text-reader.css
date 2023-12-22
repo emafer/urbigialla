@@ -1,0 +1,69 @@
+
+#play {
+    position: relative;
+    border: 3px solid #fff;
+    width: 36px;
+    height: 36px;
+    background-color: #000;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#play:before {
+    position: absolute;
+    left: 11px;
+    top: 8px;
+    content:"";
+    border-left:  12px solid white;
+    border-top: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+#play:hover {
+    border-color: red;
+    -webkit-box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+}
+
+#pause {
+    position: relative;
+    border: 3px solid #fff;
+    width: 36px;
+    height: 36px;
+    background-color: #000;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#pause:before {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 10px;
+}
+#pause:after {
+    width: 12px;
+    height: 12px;
+    background: #069;
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: 10px;
+}
+#pause:hover {
+    border-color: red;
+    -webkit-box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.2);
+
+}
